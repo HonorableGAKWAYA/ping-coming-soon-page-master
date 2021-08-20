@@ -15,6 +15,12 @@ body{
     padding: 50px;
     text-align: center;
 }
+button:focus{
+    outline: none;
+}
+input:focus{
+    outline: none;
+}
 /*Header icon*/
 .head{
     width: 100%;
@@ -154,13 +160,3 @@ ul li img{
         min-width: 100px;
     }
 }
-
-/*
-Fontfamily to be used
-
-font-family: 'Libre Franklin', sans-serif; for 300fontweight
-
-font-family: 'Libre Franklin', sans-serif; for 600fontweight
-
-font-family: 'Libre Franklin', sans-serif; for 700 fontweight
-*/
